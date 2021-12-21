@@ -198,7 +198,7 @@ function updateColor(event) {
     COLOR[0] = oneDArray[0];
     COLOR[1] = oneDArray[1];
     COLOR[2] = oneDArray[2];
-    console.log(`COLOR = ${COLOR}`)
+    alert(`Nuevo Color = ${COLOR}`)
 }
 
 // Gets the cursor position in the canvas
