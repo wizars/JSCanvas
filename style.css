@@ -16,6 +16,9 @@ canvas{
     top: auto;
     left: auto;
 }
+#efectos{
+    pointer-events: none;
+}
 label{
     display: flex;
     flex-direction: column;

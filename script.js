@@ -21,7 +21,7 @@ function main() {
     CAMERA_CANVAS = document.getElementById('camera');
     EFFECTS_CANVAS = document.getElementById('efectos');
 
-    CAMERA_CANVAS.addEventListener('mousedown', updateColor);
+    CAMERA_CANVAS.addEventListener('click', updateColor);
     // Iniciate camera and ask permisions
     const constrainsts = { video: true };
     const permission = navigator.mediaDevices.getUserMedia(constrainsts);
